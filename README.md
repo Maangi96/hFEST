@@ -6,8 +6,11 @@ git config --global user.email you@yourdomain.example.com
 
 # Initial steps
 
+create a repo from github
+
 1. git init
-2. git remote add origin https://github.com/Maangi96/hFEST.git
+2. git remote add origin <repo url>
+   - git remote -v
 3. git add .
 4. git commit -am 'initial'
 5. git push -u origin main
@@ -21,3 +24,5 @@ git config --global user.email you@yourdomain.example.com
 3. git push -u origin main
 
 git --version
+
+git clone <repo url>
