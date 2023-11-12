@@ -57,6 +57,7 @@
   justify-content: space-around;
   padding: 50px;
 }
+
 .header-index .logo {
   width: 15%;
   display: flex;
@@ -127,7 +128,78 @@
   position: relative;
   background-color: rgba(32, 30, 30, 0.685);
 }
-
+.abouthero {
+  height: 80vh;
+  width: 100vw;
+}
+.abouthero .hero-back {
+  height: 50vh;
+  width: 80vw;
+  background-color: #0f111cd6;
+  color: white;
+  margin-left: 70px;
+  position: relative;
+  margin-left: 130px;
+}
+.bhero .baye-hero {
+  height: 35vh;
+  width: 80vw;
+  background-color: #0f111cd6;
+  color: white;
+  margin-left: 70px;
+  position: relative;
+  margin-left: 130px;
+}
+.bhero h1 {
+  color: white;
+  text-align: center;
+  font-size: 47px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 2cm;
+  font-weight: 300;
+  text-transform: capitalize;
+  position: absolute;
+  top: 24vh;
+  left: 29vw;
+  z-index: 3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.abouthero .about-heroimg {
+  height: 40vh;
+  width: 45vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 12vh;
+  left: 25vw;
+}
+.abouthero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.abouthero h1 {
+  color: white;
+  text-align: center;
+  font-size: 43px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 2cm;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35vh;
+  left: 25vw;
+  z-index: 3;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .hero::before {
   content: "";
   position: absolute;
@@ -137,6 +209,7 @@
   bottom: 0;
   z-index: 2;
 }
+
 .hero .content {
   z-index: 5;
   position: absolute;
@@ -156,6 +229,7 @@
   font-weight: 300;
   text-transform: uppercase;
   z-index: 3;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
 .hero .content h3 {
@@ -165,6 +239,7 @@
   font-weight: 200;
   font-size: 35px;
   margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero .content button {
   background: rgb(161, 28, 28);
@@ -260,6 +335,221 @@
   right: 175px;
   z-index: 2;
 }
+/* ABOUT US */
+.about-us {
+  height: 80vh;
+}
+.about-us .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+.about-us .container .left {
+  width: 50%;
+  margin-left: 100px;
+}
+.about-us .container .left h5 {
+  color: rgb(21, 21, 248);
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: 300;
+}
+.about-us .container .left h1 {
+  width: 80%;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.about-us .container .left p {
+  width: 60%;
+  letter-spacing: 0.8px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.about-us .container .left .cover {
+  background-color: rgba(248, 243, 243, 0.898);
+  height: 250px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+.about-us .container .left .cover .aboutus-img {
+  background-image: url(../images/about-us.png);
+  height: 200px;
+  width: 350px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+}
+.about-us .container .right {
+  width: 40%;
+}
+.about-us .container .right p {
+  width: 70%;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 19px;
+  margin-right: 100px;
+}
+/* WHAT WE DO */
+.activities {
+  height: 70vh;
+  width: 90vw;
+  background-color: #02040c;
+  margin: 70px;
+}
+.activities h5 {
+  color: #800020;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 300;
+  padding-left: 70px;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.activities h1 {
+  color: whitesmoke;
+  margin-left: 70px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 38px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.activities .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.activities .container .dos {
+  height: 300px;
+  width: 300px;
+  border: solid 1px #303031;
+  background-color: #0f111cd6;
+  color: gray;
+}
+.activities .container .dos h1 {
+  text-transform: uppercase;
+  color: rgba(201, 197, 197, 0.924);
+  letter-spacing: 1.5px;
+  line-height: 35px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.activities .container .dos p {
+  width: 70%;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+.activities .container .dos button {
+  background: #b20430;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border: none;
+  text-transform: capitalize;
+  font-size: small;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+/* DOWNLOAD APP  */
+.download {
+  height: 150vh;
+  width: 90vw;
+  background-color: white;
+  margin-top: 50px;
+}
+.download h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 1cm;
+  width: 90%;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.download p {
+  width: 65%;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-left: 50px;
+}
+.download button {
+  background: #b20430;
+  color: rgb(231, 192, 192);
+  height: 40px;
+  width: 150px;
+  border: none;
+  text-transform: capitalize;
+  font-size: small;
+  font-weight: 200;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.download .top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.download .top .left {
+  width: 50%;
+}
+.download .top .top-img {
+  background-image: url(../images/download2.jpg);
+  height: 450px;
+  width: 350px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  margin-right: 70px;
+}
+.download .bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  margin-left: 50px;
+}
+.download .bottom .bottom-img {
+  background-image: url(../images/download1.png);
+  height: 400px;
+  width: 300px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
 /*INDEX NATION SITTERS  */
 .nation {
   background-color: whitesmoke;
@@ -811,11 +1101,152 @@
   font-weight: 600;
 }
 
+/* PACKAGES  */
+.packages {
+  height: 70vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.packages .sub {
+  height: 400px;
+  width: 350px;
+}
+.packages .sub h5 span {
+  color: #1a0e6a;
+  font-size: xx-large;
+}
+.packages .sub h3 {
+  font-size: x-large;
+  color: #1b1757e7;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.packages .sub p {
+  width: 50%;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.packages .sub p span {
+  color: #02040c;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.packages .sub button {
+  background: rgb(220, 162, 162);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border: none;
+  font-size: smaller;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+.packages .popular {
+  background-color: #0f111cd6;
+  color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+}
+.packages .popular h6 {
+  background: white;
+  color: red;
+  height: 20px;
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+  font-size: xx-small;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-left: 180px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.packages .popular h5 span {
+  color: white;
+  font-size: xx-large;
+  margin-left: 50px;
+}
+.packages .popular h3 {
+  font-size: x-large;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+.packages .popular p {
+  width: 55%;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 50px;
+}
+.packages .popular button {
+  background: #cd0638;
+  color: rgb(235, 204, 204);
+  height: 40px;
+  width: 200px;
+  border: none;
+  font-size: smaller;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  text-transform: capitalize;
+  margin-left: 50px;
+}
 /* FOOTER */
 .footer {
   height: 100vh;
   width: 90vw;
   margin-left: 70px;
+}
+.footer .data {
+  height: 30vh;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer .data .numbers {
+  height: 180px;
+  width: 300px;
+  border-right: solid 0.5px #e1e1ed;
+  background-color: #cd0638;
+  color: rgb(243, 232, 232);
+}
+.footer .data .numbers p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-large;
+  letter-spacing: 2.5px;
+  line-height: 35px;
+  text-decoration: underline;
+}
+.footer .data .numbers h3 {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
 }
 .footer .container {
   background-color: #02040c;
@@ -844,6 +1275,7 @@
   padding-top: 100px;
   font-size: xx-large;
   z-index: 10;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer .foot-img h3 span {
   text-decoration: underline;
@@ -858,21 +1290,42 @@
   font-size: large;
   font-weight: 200;
   margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer .contact .contact-info {
-  height: 150px;
+  height: 180px;
   width: 300px;
   border: solid 1px #303031;
   background-color: #0f111cd6;
   padding-left: 30px;
 }
-.footer .contact h6 {
+.footer .contact .contact-info h6 {
   color: #800020;
   text-transform: capitalize;
-  letter-spacing: 2.5px;
-  line-height: 38px;
+  letter-spacing: 2px;
+  line-height: 35px;
   font-size: medium;
-  margin-top: 15px;
+}
+.footer .contact h6 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: smaller;
+  width: 60%;
+  margin-bottom: 25px;
+  color: rgba(245, 245, 245, 0.543);
+}
+.footer .contact .bayecontact-info {
+  height: 200px;
+  width: 300px;
+  border: solid 1px #303031;
+  background-color: #0f111cd6;
+  padding-left: 30px;
+}
+.footer .contact .paye-foot {
+  color: green;
+  font-size: small;
+  margin-top: 10px;
 }
 .footer .utilities h1 {
   text-transform: capitalize;
@@ -881,6 +1334,7 @@
   font-size: large;
   color: #fff;
   font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer .utilities nav {
   text-transform: capitalize;
@@ -898,6 +1352,7 @@
   font-weight: 200;
   margin-bottom: 30px;
   margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer .news input {
   height: 40px;
