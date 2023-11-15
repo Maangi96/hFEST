@@ -209,7 +209,85 @@
   bottom: 0;
   z-index: 2;
 }
-
+.hero .wellnesshero-img {
+  height: 60vh;
+  width: 90vw;
+  background-image: url(../images/wellness-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 70px;
+  position: relative;
+  background-color: rgba(83, 81, 81, 0.685);
+  background-blend-mode: darken;
+}
+.hero .well-content {
+  color: white;
+  z-index: 5;
+  position: absolute;
+  top: 35vh;
+  left: 20vw;
+  width: 65%;
+  text-align: center;
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: 2.3px;
+  line-height: 2cm;
+  font-weight: 300;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero .bloghero-img {
+  height: 40vh;
+  width: 90vw;
+  background-image: url(../images/blog-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 70px;
+  position: relative;
+}
+.hero .blog-content h1 {
+  color: white;
+  text-align: center;
+  font-size: 47px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 2cm;
+  font-weight: 300;
+  text-transform: capitalize;
+  position: absolute;
+  top: 35vh;
+  left: 50vw;
+  z-index: 3;
+  text-shadow: -7px 0px 1px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* GET IN TOUCH HERO */
+.git-hero {
+  height: 70vh;
+}
+.git-hero .hero-back {
+  height: 50vh;
+  width: 80vw;
+  background-color: #0f111cd6;
+  color: white;
+  margin-left: 70px;
+  position: relative;
+  margin-left: 130px;
+}
+.git-hero h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 2cm;
+  font-weight: 300;
+  text-transform: capitalize;
+  z-index: 3;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 30vh;
+  left: 40vw;
+}
 .hero .content {
   z-index: 5;
   position: absolute;
@@ -253,7 +331,115 @@
   letter-spacing: 2px;
   margin-top: 40px;
 }
-
+/* HERO SINGLE BLOG */
+.single-blog {
+  height: 190vh;
+  border-top: solid 1px gray;
+  padding: 50px;
+}
+.single-blog h5 {
+  color: blue;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: medium;
+  font-weight: 400;
+  margin-left: 50px;
+}
+.single-blog h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 1cm;
+  font-weight: 600;
+  width: 50%;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+}
+.single-blog .singleblog-img {
+  background-image: url(../images/Screenshot\ 2023-11-15\ at\ 15.02.05.png);
+  height: 60vh;
+  width: 80vw;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  margin-left: 70px;
+}
+.single-blog .top-bar {
+  margin-left: 70px;
+  width: 80%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+.single-blog .top-bar h6 {
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  font-size: 19px;
+  background-color: rgb(243, 240, 240);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.single-blog .top-bar .face-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-blog .top-bar .face-img .face {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.single-blog .explanation h1 {
+  width: 50%;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+.single-blog .explanation p {
+  width: 50%;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+  font-size: medium;
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+.single-blog .explanation .list {
+  margin-left: 130px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  font-size: 13px;
+  color: gray;
+}
+.single-blog .explanation .color {
+  height: 300px;
+  width: 600px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.single-blog .explanation .color div {
+  height: 200px;
+  width: 490px;
+  background-color: green;
+}
+.single-blog .explanation .color p {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: large;
+  font-weight: 200;
+  font-style: italic;
+}
 /* ABOUT */
 .about {
   height: 100vh;
@@ -402,6 +588,519 @@
   font-size: 19px;
   margin-right: 100px;
 }
+/* BLOG */
+.blog {
+  height: 120vh;
+  width: 100vw;
+}
+
+.blog h5 {
+  color: blue;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 190px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blog h1 {
+  margin-left: 190px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 38px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.blog .container .box1,
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog .container .face {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.blog .container .image {
+  height: 400px;
+  width: 350px;
+  border: solid 1px rgb(220, 219, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blog .container .blog-p {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.blog .container .blog-p span {
+  color: blue;
+  font-size: smaller;
+}
+.blog .container h4 {
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: medium;
+  width: 70%;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blog .container .blog-face {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blog .container .blog-face p {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+/* WELLNESS SOLUTIONS */
+.solutions {
+  height: 170vh;
+  width: 90vw;
+  padding: 50px;
+}
+.solutions p {
+  text-align: center;
+  color: blue;
+}
+.solutions h1 {
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+  line-height: 38px;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.solutions h6 {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 200;
+  color: rgb(53, 52, 52);
+}
+.solutions .boxes {
+  height: 80%;
+  width: 62vw;
+  margin-left: 130px;
+}
+.solutions .boxes .red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b20430;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.solutions .boxes .black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f111cd6;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.solutions .boxes .box {
+  height: 250px;
+  width: 300px;
+  border-right: solid 1px rgb(238, 192, 192);
+}
+.solutions .boxes h5 {
+  letter-spacing: 1px;
+  line-height: 1cm;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.solutions .boxes .line {
+  width: 50px;
+  color: white;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+
+/* WECOME TO hFEST  */
+.welcome {
+  height: 100vh;
+  padding: 50px;
+}
+.welcome h5 {
+  color: #b20430;
+  letter-spacing: 1px;
+  line-height: 1cm;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.welcome h1 {
+  letter-spacing: 1px;
+  line-height: 1cm;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  width: 70%;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  padding: 200;
+}
+.welcome p {
+  letter-spacing: 1px;
+  line-height: 0.7cm;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  width: 70%;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  color: rgba(17, 16, 16, 0.458);
+}
+.welcome .box {
+  height: 70vh;
+  width: inherit;
+  background-color: #02040c;
+  margin-top: 30px;
+}
+.welcome .box .welcome-img {
+  background-image: url(../images/explore.png);
+  height: 400px;
+  width: 800px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.welcome .box .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #0f111cd6;
+  color: white;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 320vh;
+  left: 38vw;
+}
+.welcome .box button {
+  background: #b20430;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border: none;
+  font-size: medium;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-left: 30vw;
+}
+/* GET IN TOUCH  */
+.git {
+  height: 70vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.git .contact-info {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 150px;
+}
+.git .contact-info h5 {
+  color: blue;
+  letter-spacing: 3px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.git .contact-info h1 {
+  margin-top: 30px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  line-height: 38px;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.git .contact-info h4 {
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.git .contact-info p {
+  width: 60%;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 15px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.git .contact-info p span {
+  font-weight: 700;
+  font-size: 18px;
+}
+.git .input {
+  margin-bottom: 150px;
+  margin-right: 50px;
+  width: 35%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.git .input h1 {
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+  line-height: 38px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.git .input h5 {
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: blue;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.git .input input {
+  height: 40px;
+  width: 400px;
+  padding-left: 20px;
+}
+.git .input textarea {
+  padding: 20px;
+}
+.git .input button {
+  background-color: #02040c;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border: none;
+  text-transform: capitalize;
+  font-size: medium;
+  letter-spacing: 1.5px;
+}
+/* FAQ */
+.faq {
+  height: 70vh;
+  margin-top: 50px;
+  padding: 50px;
+}
+.faq h5 {
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: blue;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.faq h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  line-height: 38px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.faq h6 {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 20vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.faq .line {
+  width: 50vw;
+  margin-left: 20vw;
+}
+.faq p {
+  margin-left: 22vw;
+  width: 30%;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 15px;
+  margin-top: 20px;
+  color: rgb(164, 162, 162);
+}
+.arr {
+  background-color: white;
+  height: 10px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.4s ease;
+}
+.arr div {
+  height: 10px;
+  width: 10px;
+  border-top: solid 1px black;
+  border-left: solid 1px black;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 60vw;
+}
+
+/* STEPS */
+.steps {
+  height: 100vh;
+}
+.steps h1 {
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+  line-height: 38px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+.steps h6 {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 50px;
+  width: 50%;
+  margin-left: 20vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.steps p {
+  width: 38%;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-size: 15px;
+  margin-left: 22vw;
+}
+/* BLOG (SINGLE BLOG) */
+.sblog {
+  height: 70vh;
+}
+
+.sblog h5 {
+  color: blue;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 190px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sblog h1 {
+  margin-left: 190px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 38px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sblog .container .box1,
+.sbox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sblog .container .face {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.sblog .container .image {
+  height: 400px;
+  width: 350px;
+  border: solid 1px rgb(220, 219, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sblog .container .blog-p {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.sblog .container .blog-p span {
+  color: blue;
+  font-size: smaller;
+}
+.sblog .container h4 {
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: medium;
+  width: 70%;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sblog .container .blog-face {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sblog .container .blog-face p {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
 /* WHAT WE DO */
 .activities {
   height: 70vh;
@@ -475,6 +1174,7 @@
   margin-top: 20px;
   margin-left: 50px;
 }
+
 /* DOWNLOAD APP  */
 .download {
   height: 150vh;
